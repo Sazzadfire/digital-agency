@@ -1,0 +1,431 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+/* header */
+.header{
+    background-color: blueviolet;
+    position: fixed;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid white;
+    
+}
+.header-container{
+    width: 95%;
+    margin: 0 auto;
+   
+    
+    
+}
+.logo{
+    width: 100px;
+}
+.nav-bar .nav-list .link{
+  text-decoration: none !important;
+}
+/* end header */
+
+
+
+/* hero section */
+#hero-section{
+    background-color: blueviolet;
+ 
+    
+}
+.hero-container{
+    width: 85%;
+    margin: 0 auto;
+    padding-top:70px ;
+}
+.left-side, .right-side{
+    width: 50%;
+    
+}
+.right-side {
+    width: 45%;
+}
+
+.left-side a img{
+    width: 35px;
+    margin: 13px;
+    
+}
+.left-side a {
+    text-transform: capitalize;
+    text-decoration: none !important;
+    color: white;
+    
+}
+.left-side h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.left-side p{
+    width: 85%;
+    color: #ffffffec;
+}
+#hero-section .wave{
+    width: 100%;
+    height:auto;
+}
+/*end hero section */
+/* work */
+
+#work{
+    padding:90px 0;
+}
+#work .work-container{
+    width: 85%;
+    margin: 0 auto;
+ 
+}
+#work .work-container h1{
+    font-weight: 600;
+    padding-bottom: 40px;
+ 
+}
+
+
+ .card-box{
+     margin: 10px;
+     
+     
+     max-width: 100%;
+     padding: 10px;
+     flex: 1 0 300px;
+     border: 1px solid blueviolet;
+     border-radius: 5px;
+ }
+ .card-box img{
+     width: 80px;
+     display: block;
+     margin: 0 auto;
+ }
+ .card-box h5{
+  padding-top: 45px;
+  padding-bottom: 10px;
+  font-weight: 600;
+ }
+ .btn{
+     display: block;
+     background-color: blueviolet;
+     color: white;
+     margin: 0 auto;
+ }
+/*end work */
+
+#about{
+    background-color: #d8dfec69;
+    padding: 90px 0;
+}
+#about .about-container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+#about .about-container .about-header{
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+
+.left-about, .right-about{
+    width: 50%;
+}
+
+.left-about h2{
+    font-size: 30px;
+    padding-bottom:20px ;
+}
+.left-about ul{
+    padding-left: 30px;
+}
+
+
+
+/* review */
+#review{
+    margin: 90px 0;
+}
+
+#review .review-container{
+    width: 85%;
+    margin: 0 auto;
+}
+#review .review-container h1{
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+/* #review .review-container .review-card {
+    width: 40%;
+} */
+#review .review-container .review-card-container .review-card {
+    max-width:100% ;
+    border-left: 5px solid blueviolet;
+    margin: 20px;
+    padding-left: 24px;
+   
+    
+
+}
+#review .review-container  .review-card p{
+    font-size: 15px;
+}
+#review .review-container  .review-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#review .review-container  .review-card .span-wrapper .name{  
+  font-size: 15px;
+  font-weight: 600;
+}
+#review .review-container  .review-card .span-wrapper .company{  
+  font-size: 14px;
+  color: gray;
+}
+/* end review */
+
+/* contacts */
+#contacts{
+    background-color:  #d8dfec69;
+    padding-top: 90px ;
+    
+}
+#contacts .social-area{
+    width: 30%;
+margin: 0 auto;
+padding: 20px 0 90px 0;
+}
+
+.social-area ul li a img{
+    width:50px;
+    transition: all 0.5s ease;
+    
+   
+}
+.social-area ul li a:hover img{
+   transform: translateY(-10px);
+    
+   
+}
+.social-area ul li{
+    padding: 0 7px;
+}
+
+.contact-down{
+    padding: 60px 0;
+    background-color: blueviolet;
+}
+.contact-down-container{
+  
+    width: 75%;
+    margin: 0 auto;
+}
+.item1, .item2, .item3{
+    width: 30%;
+}
+.item1 img{
+    width: 100px;
+}
+.item1 p{
+   padding-top: 15px; 
+   color: whitesmoke;
+
+   font-size: 15px;
+}
+.item2 h4, .item3 h4{
+   
+   color: whitesmoke;
+
+   font-weight: 600;
+   text-transform:uppercase;
+}
+.item2 p{
+   padding-top: 8px; 
+   color: whitesmoke;
+
+   font-size: 15px;
+   text-transform: capitalize;
+}
+.item3 form{
+    padding-top:15px ;
+}
+.item3 form input{
+   width: 100%;
+   border: none;
+   outline: none;
+   padding: 10px;
+
+   margin-bottom: 20px;
+}
+.item3 form button{
+  
+   border: none;
+   outline: none;
+   padding: 9px 20px;
+  
+   margin-bottom: 20px;
+}
+
+
+/*  end contacts */
+#footer{
+    background-color: blueviolet;
+    border-top: 1px solid whitesmoke ;
+    
+}
+
+#footer p{
+    padding: 20px;
+
+    color: rgba(245, 245, 245, 0.726);
+}
+
+
+
+
+
+
+@media screen and (max-width:730px) {
+    .nav-bar{
+        display: none;
+    }
+}
+@media screen and (max-width:650px) {
+    .hero-container{
+        flex-direction: column;
+    }
+    .hero-container  .right-side, .hero-container .left-side{
+      width: 100%;
+    }
+
+    .item-container{
+        flex-direction: column;
+        
+    }
+    .left-about, .right-about{
+        width: 100%;
+    }
+    .left-about ul, .left-about h2{
+        text-align: center;
+    }
+    .left-about h2{
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width:770px){
+    .review-card-container{
+        flex-direction: column;
+    }
+    /* .review-card-container .review-card{
+        width: 90%;
+    } */
+}
+@media screen and (max-width:440px){
+    .social-area ul li a img{
+        width: 40px;
+    }
+    .social-area ul li {
+        padding: 0 4px;
+    }
+
+    #work h1, #about h1, #review h1, #contacts h1{
+        font-size: 30px;
+    }
+   .left-about h2{
+       font-size: 25px;
+   }
+    
+}
+@media screen and (max-width:300px){
+   
+
+    #work h1, #about h1, #review h1, #contacts h1{
+        font-size: 25px;
+    }
+
+    .card-box h5{
+        font-size: 17px;
+    }
+    .left-about h2{
+        font-size: 20px;
+    }
+
+    
+}
+@media screen and (max-width:347px){
+    .social-area ul li a img{
+        width: 35px;
+    }
+    .social-area ul li {
+        padding: 0 3px;
+    }
+}
+@media screen and (max-width:250px){
+    .social-area ul {
+        flex-direction: column;
+    }
+    .social-area ul  li{
+        text-align: center;
+    }
+    .social-area ul li a:hover img{
+        transform: translateY(-5px);
+         
+        
+     }
+   
+}
+
+@media screen and (max-width:800px) {
+    .down{
+        flex-direction: column;
+    }
+    .item1, .item2, .item3{
+        width: 85%;
+
+    }
+    .item3{
+        margin-top: 40px;
+    }
+
+    .item2{
+        margin-top: 40px;
+    }
+}
+   
+
+
+
+
+
+
+
+
